@@ -1,0 +1,52 @@
+.widget-box-layer {
+    background-color: rgba(0, 0, 0, 0.3);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    z-index: 11;
+}
+
+.loader{
+    height: 100%;   
+}
+.icon-spinner:before {
+    content: "ï¿½?";
+}
+[class^="icon-"]:before, [class*=" icon-"]:before {
+    display: inline-block;
+    text-decoration: inherit;
+}
+[class^="icon-"]:before, [class*=" icon-"]:before {
+    display: inline-block;
+    text-decoration: inherit;
+}
+.widget-box-layer > .icon-spin {
+    animation-duration: 1.2s;
+    color: #15394b !important;
+}
+.fa-pulse {
+   color: #15394b !important; 
+}
+.widget-box-layer > [class*="icon-"],.fa-pulse {
+    position: relative;
+    top: 35%;
+
+}
+.white {
+    color: #FFFFFF !important;
+}
+
+.err-message{
+    margin-top: 10px;
+    margin: 10px;
+}
+.text-right {
+    text-align: right;
+}
+.text-center {
+    text-align: center;
+}
+/**/

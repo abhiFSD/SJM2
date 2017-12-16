@@ -1,0 +1,16 @@
+<IfModule mod_rewrite.c>
+
+RewriteEngine On 
+RewriteCond %{SERVER_PORT} 80 
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
+
+</IfModule>
+php_value upload_max_filesize 100M
+php_value post_max_size 200M
+php_value memory_limit 512M	
+php_value session.gc_maxlifetime 1000
+php_value session.cookie_lifetime  1000

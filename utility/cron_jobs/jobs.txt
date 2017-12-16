@@ -1,0 +1,3 @@
+# m h  dom mon dow   command
+*/30 * * * * /usr/bin/php /var/www/html/stockadjustmentproj/index.php amazon receiveSQS > /var/log/cron.log 2>&1
+*/10 * * * *  /usr/bin/php /var/www/html/stockadjustmentproj/index.php lambda2 receiveSQS >> /var/log/cron2.log 2>&1

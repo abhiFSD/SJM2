@@ -1,0 +1,8 @@
+#ignore database file
+application/config/database.php
+/downloads/
+uploads/products/
+uploads/*.csv
+application/logs/
+application/cache/
+node_modules/
