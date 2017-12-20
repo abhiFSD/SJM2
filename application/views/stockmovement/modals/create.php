@@ -100,6 +100,7 @@
                     </div>
                 </div>
             </div>
+           <!--Modification: Cancel Button removed -->
             <div class="modal-footer">
                 <button class="btn btn-primary" data-submit>Submit</button>
 

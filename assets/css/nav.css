@@ -1390,7 +1390,7 @@ body#picks-pickpack  {
 }
 #kiosk-attributes .table>tbody>tr>td { vertical-align:middle;}
 
-/**/
+/*Modification: Modal skin problem fix*/
 .ui-widget-overlay {
     background-color:#000;
     filter:alpha(opacity=30);

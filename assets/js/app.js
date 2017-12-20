@@ -33,6 +33,7 @@
 // modules/base.js
 // ============================================================
 
+//Modification: Modal skin problem fix
 $(function () {
     $('div.alert').each(function() {
         var div = $(this),

@@ -258,6 +258,7 @@ $('#add-new-attribute').on('click',function(){
 	// add new unit dialog ends here
 
 	// add new product attribute dialog starts here
+    //Modification: Modal skin problem fix
 	var dialog_new_attribute_option_form = $('#new_attribute_option_form').dialog({
 		autoOpen: false,
 	    resizable: true,

@@ -53,7 +53,7 @@
         </div>
     </div>
 </div>
-
+<!--Modification: Unexpected close fix-->
 <script>
     window.onload = function (ev) {
         $.fn.modal.prototype.constructor.Constructor.DEFAULTS.keyboard = false;
